@@ -1,0 +1,43 @@
+#computers {
+	font-family: Arial;
+	margin: 100px 0;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#computers caption {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+#computers th {
+background-color: #3498bd;
+color: white;
+padding: 5px 10px;
+border: 1px solid #2918b9;
+
+}
+#computers td:first-child {
+	font-weight: bold;
+}
+
+#computers tr:nth-child(2n) {
+	background-color: #eeeeee; /*every seconf row has a color grey*/
+}
+#computers td {
+	padding: 10px;
+}
+#computers tr:hover {
+	background-color: red;
+}
+#computers tr:hover td {
+	color: white;
+}
+#cpu-pro, 
+#cpu-standard {
+	width: 100px;
+}
+#computers td:nth-child(3){
+	text-align: center;
+}
+#computers td:nth-child(4){
+	text-align: center;
+}
